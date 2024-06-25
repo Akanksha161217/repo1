@@ -1,0 +1,29 @@
+<html>
+     <head>
+          <script>
+		function show(){
+			document.write("<h1>My Name Is Akanksha");
+		}
+		function display(){
+		   var date=Date();
+			document.write("<h1>Current Date And Time is   " + date+ "</h1>");
+		}
+		function change(){
+			document.write("<h1>Contet Change</h1>");
+		}
+		function out(){
+			document.write("<h1>Change Contet on mouse out</h1>");
+		}
+		
+          </script>
+     </head>
+     <body>
+          <center>
+               <h1 onmouseover="change()">Events In Java Script</h1>
+		   <h1 onmouseout="out()">MOUSE OUT CLICK</h1>
+                    <button onclick="show()">Show My Name</button>
+		<button ondblclick="display()">Date And Time</button>
+		<input onblur="blur()">
+           </center>
+     </body>
+</html>

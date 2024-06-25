@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+	color:blue;
+	text-align:center;
+	background : url("C:\Users\Admin\Pictures\N.jpg");
+}
+form{
+	margin-right: 300px;
+	margin-left: 330px;
+	height:60%;
+	 padding-left:20px;
+	 padding-top:20px;
+	box-shadow:2px 2px 2px 2px;
+	 background-image: url(https://img5.goodfon.com/wallpaper/nbig/f/e1/tsvet-forma-fon-230.jpg);
+	background-position: center,top,bottom ;
+  background-repeat: no-repeat, repeat;
+
+}
+
